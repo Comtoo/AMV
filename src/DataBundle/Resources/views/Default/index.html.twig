@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>{% block title %}Accueil!{% endblock %}</title>
+    {% block stylesheets %}{% endblock %}
+    <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+</head>
+<body>
+{% block body %}
+    <h2>Page Test</h2>
+    <button><a style="text-decoration: none" href="api/articles"> API --> </a></button>
+{% endblock %}
+{% block javascripts %}{% endblock %}
+</body>
+</html>
